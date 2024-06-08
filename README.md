@@ -1,24 +1,20 @@
-# github-portfolio
+# GitHub Portfolio
 
-## Project setup
-```
-npm install
-```
+## Project Setup
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Create a `.env` file with your GitHub username:
+4. Run `npm run serve` to start the development server.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Features
 
-### Lints and fixes files
-```
-npm run lint
-```
+- List all repositories with pagination.
+- Search and filter repositories.
+- View details of a single repository.
+- Error boundary handling.
+- 404 page for undefined routes.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Accessibility
+
+- Implemented with keyboard navigation and screen reader support in mind.
