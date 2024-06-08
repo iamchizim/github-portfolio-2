@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --error-color: #d32f2f;
+    --background-color: #ffffff;
+    --text-color: #212529;
+    --link-color: #007bff;
+    --link-hover-color: #0056b3;
+  }
+  
+  body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    font-family: Arial, sans-serif;
+  }
+  
+  a {
+    color: var(--link-color);
+  }
+  
+  a:hover {
+    color: var(--link-hover-color);
+  }
+  
+  .error {
+    color: var(--error-color);
+  }
+  
+  .loading {
+    font-weight: bold;
+  }
+  
